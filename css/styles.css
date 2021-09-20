@@ -1,0 +1,28 @@
+* {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.students-name {
+    display: flex;
+    flex-direction: row;
+    color: blue;
+    font-size: 1.3em;
+}
+
+h1 {
+    font-style: italic;
+}
+
+.image-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+img {
+    width: 500px;
+    height: auto;
+    margin: 20px;
+}
