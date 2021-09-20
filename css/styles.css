@@ -2,6 +2,10 @@ body {
     border: 5px solid black;
 }
 
+img {
+    height: 300px
+}
+
 .main-container {
     display: flex;
     align-items: center;
@@ -22,17 +26,18 @@ h1 {
 }
 
 .image-container {
-    object-fit: cover;
     height: 500px;
-    background-color: yellow;
+    display: flex;
+    width: 70%;
+    margin: 0 auto;
+    justify-content: space-between;
+    gap: 10px
 }
 
 img {
-    display: inline;
     object-fit: cover;
-    width: 40%;
+    width: 55%;
     height: 100%;
-    margin: 0 20px;
 }
 
 article {
